@@ -1,0 +1,32 @@
+{
+  "name": "passport-local-basics",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/thebopshoobop/passport-local-basics.git"
+  },
+  "author": "Will Timpson",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/thebopshoobop/passport-local-basics/issues"
+  },
+  "homepage": "https://github.com/thebopshoobop/passport-local-basics#readme",
+  "dependencies": {
+    "bcrypt": "^1.0.2",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "express-flash-messages": "^0.1.1",
+    "express-handlebars": "^3.0.0",
+    "express-session": "^1.15.5",
+    "mongoose": "^4.11.7",
+    "mongoose-unique-validator": "^1.0.5",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0"
+  }
+}
